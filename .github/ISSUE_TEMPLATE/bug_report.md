@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report about something which doesn't work as expected
 title: ''
 labels: bug
-assignees: DarkWanderer
+assignees: ''
 
 ---
 
