@@ -1,5 +1,5 @@
 name: 🛠 Enhancement
-description: Create request for a feature or other improvement
+description: Request a feature or other improvement
 title: "[FEAT] <title>"
 labels: 
 - enhancement
@@ -7,18 +7,24 @@ body:
 - type: textarea
   attributes:
     label: Problem statement
-    description: What is the problem you are facing?
+    description: What is the problem you are trying to solve?
   validations:
     required: true
 - type: textarea
   attributes:
     label: Suggested solution
-    description: A description of what you want to happen
+    description: What can/should be changed to help you achieve your goal?
   validations:
     required: true
 - type: textarea
   attributes:
     label: Considered alternatives
     description: What alternative approaches/solutions have you considered?
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Additional information
+    description: Other information which you consider relevant
   validations:
     required: false
