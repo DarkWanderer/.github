@@ -1,0 +1,12 @@
+name: 🔍 Question
+description: Request for information or guidance on specific usage aspects
+title: "[Q] <title>"
+labels: 
+- question
+body:
+- type: textarea
+  attributes:
+    label: Question
+    description: Ask your question here
+  validations:
+    required: true
